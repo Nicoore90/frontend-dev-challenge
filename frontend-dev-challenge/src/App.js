@@ -1,5 +1,5 @@
 
-import './App.css';
+import './sass/styles.css';
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import { Home } from "./components/Home"
 import { ContactForm } from "./components/ContactForm"
@@ -11,8 +11,6 @@ function App() {
       <Routes>         
           <Route path="/" element= {<Home />} />
           <Route path="/contact" element= {<ContactForm />} />       
-          
-
         </Routes>   
       </div>
     </BrowserRouter>

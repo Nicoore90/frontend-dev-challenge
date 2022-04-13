@@ -1,0 +1,28 @@
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar__menu {
+  height: 10px;
+  padding-left: 0px;
+}
+.navbar__logo {
+  height: 50px;
+  padding-top: 0px;
+  padding-left: 50px;
+}
+.navbar__search {
+  height: 10px;
+}
+
+.adv {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
